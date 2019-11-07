@@ -35,7 +35,6 @@ We can use regular html for images
 
 We can also 
 <span style="text-decoration:underline">underline</span> text
-<u>underline</u>
 
 ### Code highlighting
 ```

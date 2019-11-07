@@ -11,11 +11,23 @@
 	<h1>Hello World Web Page</h1>
 	<p>Sample web page</p>
 	<script>
-		alert("alert alert alert");
+		var globalVariable = 22;
 		function runThisSometimes(){
 			alert("run this sometimes");
+			globalVariable = 33;
 		}
+		console.log(globalVariable);
 	</script>
 	<button onclick="runThisSometimes()">Run This Sometimes</button>
+	<ul>
+		<li>Item1</li>
+		<li>Item2</li>
+		<li>Item3</li>
+	</ul>
+	<ol>
+		<li>Item1</li>
+		<li>Item2</li>
+		<li>Item3</li>
+	</ol>
 </body>
 </html>
