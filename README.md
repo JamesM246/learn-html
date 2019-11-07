@@ -31,7 +31,7 @@ This is a `highlight` for individual words / blocks of text
 
 We can use regular html for images
 
-<img src="https://www.c-ville.com/wp-content/uploads/2019/09/Cats-660x335.jpg" width="350" />
+<img src="https://www.c-ville.com/wp-content/uploads/2019/09/Cats-660x335.jpg" width="350"/>
 
 WE can also 
-<span style="text-decoration: underline;">underline text</span>
+<span style="text-decoration: underline">underline</span> text
