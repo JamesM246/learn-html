@@ -16,7 +16,6 @@
 		function runThisSometimes(){
 			alert("run this sometimes");
 			globalVariable+=10;
-			console.log(globalVariable);
 			document.getElementById("putSomeDataHere").innerText=globalVariable;
 			console.log(globalVariable);
 			myArray.push(globalVariable);
@@ -29,6 +28,7 @@
 		
 	</script>
 	<button onclick="runThisSometimes()">Run This Sometimes</button>
+	<button onclick="popFromArray()">Pop From Array</button>
 	<ul>
 		<li>Item1</li>
 		<li>Item2</li>
