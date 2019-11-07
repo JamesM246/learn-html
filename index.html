@@ -12,12 +12,15 @@
 	<p>Sample web page</p>
 	<script>
 		var globalVariable = 22;
+		var myArray = [];
 		function runThisSometimes(){
 			alert("run this sometimes");
 			globalVariable+=10;
 			console.log(globalVariable);
 			document.getElementById("putSomeDataHere").innerText=globalVariable;
 			console.log(globalVariable);
+			myArray.push(globalVariable);
+			console.log(myArray);
 		}
 		
 	</script>
