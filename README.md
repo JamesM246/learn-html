@@ -14,3 +14,17 @@ Examples
 	aside
 	header
 	footer
+
+# Markdown Syntax
+
+# Main Header
+## Sub Header
+### Sub-Sub Header
+
+*italics*
+**bold**
+***bold italic***
+
+This is a `highlight` for individual words / blocks of text
+
+> This can be used to quote a whole paragraph (`blockquote`)
