@@ -36,3 +36,37 @@ We can use regular html for images
 We can also 
 <span style="text-decoration:underline">underline</span> text
 <u>underline</u>
+
+### Code highlighting
+```
+int x = 1;
+```
+	this is tabbed in once
+	It can also be used for code
+
+```java
+int x = 1;
+```
+
+```html
+<html>
+<head>
+	<!--head is meta data-->
+	<title>My Page</title>
+	<style>
+		/*CSS goes here*/
+	</style>
+</head>
+<body>
+	<h1>Hello World Web Page</h1>
+	<p>Sample web page</p>
+	<script>
+		alert("alert alert alert");
+		function runThisSometimes(){
+			alert("run this sometimes");
+		}
+	</script>
+	<button onclick="runThisSometimes()">Run This Sometimes</button>
+</body>
+</html>
+```
